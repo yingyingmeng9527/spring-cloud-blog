@@ -1,0 +1,16 @@
+# 忽略各模块的 Maven 编译输出
+target/
+
+# 忽略 IDEA 本机配置
+.idea/
+*.iml
+
+# 忽略 Java 编译文件
+*.class
+
+# 忽略日志和压缩的历史日志
+*.log
+*.log.*.gz
+
+# 忽略本地环境变量文件
+.env
